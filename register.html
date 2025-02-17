@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="assets/css/register.css">
+</head>
+
+<body>
+
+    <form id="form">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" placeholder="Enter your name" required minlength="3"
+                maxlength="20">
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email" placeholder="user@example.com" required>
+        </div>
+        <div class="form-group">
+            <label for="password1">Password</label>
+            <input id="password1" type="password" required placeholder="Enter your Password"
+                title="Enter at least one lowercase charecter , one uppercase charecter, one number and one special charecters">
+        </div>
+        <div class="form-group">
+            <label for="password2">Confirm Password</label>
+            <input id="password2" type="password" required placeholder="Re-enter your Password">
+        </div>
+        <input type="checkbox" name="check" id="check" required> Please confirm your details and submit
+        <div class="btn">
+            <button type="submit">Register</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
